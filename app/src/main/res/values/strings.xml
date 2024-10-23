@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CourseToDoApp</string>
+    <string name="filename">todo.json</string>
+    <string name="copyright">\@2024, YiChi Lin</string>
+    <string name="version">Version 1.0</string>
+    <string name="toast_save_empty_todo">Empty item not saved</string>
+    <string name="toast_no_change_made">No changes made</string>
+    <string name="toast_no_titles">Cannot save item without course id and title</string>
+
+</resources>
