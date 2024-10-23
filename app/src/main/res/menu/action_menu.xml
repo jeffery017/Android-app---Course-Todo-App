@@ -6,10 +6,10 @@
         android:id="@+id/menuItemInfo"
         android:icon="@drawable/info"
         android:title="Info"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/menuItemAdd"
         android:icon="@drawable/add"
         android:title="Add"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 </menu>

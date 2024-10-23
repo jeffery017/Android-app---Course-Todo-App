@@ -1,9 +1,6 @@
 package com.example.assignment2;
 
 import androidx.annotation.NonNull;
-
-import org.json.JSONObject;
-
 import java.io.Serializable;
 import java.util.Date;
 import com.google.gson.Gson;

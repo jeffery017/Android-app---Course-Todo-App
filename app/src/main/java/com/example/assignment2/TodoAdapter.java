@@ -7,8 +7,6 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import java.util.Date;
 import java.util.List;
 
 public class TodoAdapter extends RecyclerView.Adapter<TodoViewHolder> {
@@ -25,10 +23,10 @@ public class TodoAdapter extends RecyclerView.Adapter<TodoViewHolder> {
     private String trimDescription(String description) {
         int tail = 80;
 
-        if (description.length() <= 80) {
+        if (description.length() <= tail) {
             return description;
         } else {
-            return description.substring(0, 80) + "...";
+            return description.substring(0, tail) + "...";
         }
     }
 
